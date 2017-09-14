@@ -1,2 +1,3 @@
 **/*.swp
+babel_cache
 node_modules
