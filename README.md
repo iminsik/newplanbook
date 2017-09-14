@@ -15,10 +15,11 @@ Practicing React Server and Client side rendering
 # How to run this app?
 ```
 ## Development
-NODE_ENV=production node_modules/.bin/webpack -p && node_modules/.bin/http-server src/static
+NODE_ENV=production node_modules/.bin/webpack -p
+(NODE_ENV=production node_modules/.bin/webpack -p && node_modules/.bin/http-server src/static)
 
 ## Production
-NODE_ENV=production node_modules/.bin/babel-node --presets react,es2015 src/server.js
+NODE_ENV=production node_modules/.bin/babel-node --presets react,es2015 server.js
 ```
 
 # References
